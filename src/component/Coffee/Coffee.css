@@ -1,0 +1,36 @@
+/* Coffee.css */
+
+.coffee-section {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .coffee-section h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .coffee-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .coffee-button {
+    display: inline-block;
+    background-color: #ff813f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .coffee-button:hover {
+    background-color: #ff6c00;
+  }
+  
