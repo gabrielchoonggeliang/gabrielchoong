@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './globalStyles.css';
+import { inject } from '@vercel/analytics';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root')
@@ -14,7 +15,6 @@ root.render(
   </React.StrictMode>
 );
 
-import { inject } from '@vercel/analytics';
  
 inject();
 
